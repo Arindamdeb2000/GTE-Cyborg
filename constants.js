@@ -1,7 +1,7 @@
 // Options the user could type in
 const prompts = [
   ["hi", "hey", "hello", "good morning", "good afternoon"],
-  ["how are you", "how is life", "how are things"],
+  ["What are the primary responsibilities of the GTE team?", "In which areas does the GTE team specialize?", "How does the GTE team contribute to its respective field?", "What does GTE team do?"],
   ["what are you doing", "what is going on", "what is up"],
   ["how old are you"],
   ["who are you", "are you human", "are you bot", "are you human or bot"],
@@ -31,11 +31,7 @@ const prompts = [
 
 const replies = [
   ["Hello!", "Hi!", "Hey!", "Hi there!","Howdy"],
-  [
-    "Fine... how are you?",
-    "Pretty well, how are you?",
-    "Fantastic, how are you?"
-  ],
+  ["The Global Talent Evangelist (CoE) team = Research Oriented Talent Identification from across the globe, purposeful nurturing of top talent to meet Adobe's business objectives."]
   [
     "Nothing much",
     "About to go to sleep",
