@@ -30,7 +30,6 @@ const prompts = [
 // Possible responses, in corresponding order
 
 const replies = [
-  ["Hello!", "Hi!", "Hey!", "Hi there!", "Howdy"],
   ["The Global Talent Evangelist (CoE) team = Research Oriented Talent Identification from across the globe, purposeful nurturing of top talent to meet Adobe's business objectives."],
     [
       "a. Spearheading technological innovations",
