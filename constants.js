@@ -1,12 +1,7 @@
 // Options the user could type in
 const prompts = [
   ["hi", "hey", "hello", "good morning", "good afternoon"],
-  [
-    "What are the primary responsibilities of the GTE team?",
-    "In which areas does the GTE team specialize?",
-    "How does the GTE team contribute to its respective field?",
-    "What does GTE team do?", "GTE","Global Talent Evangelist"
-  ],
+  ["GTE","Global Talent Evangelist"],
   ["what are you doing", "what is going on", "what is up"],
   ["how old are you"],
   ["who are you", "are you human", "are you bot", "are you human or bot"],
