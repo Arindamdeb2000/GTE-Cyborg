@@ -1,13 +1,76 @@
-// Define questions and corresponding answers
-const knowledgeBase = {
-  "What is Sourcing pod?": "Sourcing pod is a comprehensive learning platform that provides sourcers with the opportunity to enhance their skills in various sourcing practices, enabling them to stay up-to-date with the latest techniques and trends.",
-  "What is Boolean Bank?": "Boolean Bank serves as a comprehensive repository for all the Boolean Strings created by sourcing functions, providing a centralized resource for future use and reference.",
-  "What is Extrapolations?": "Extrapolations is a centralized storage system for handout notes, cheat sheets, tools, and other resources used by sourcing functions, facilitating easy access and utilization for future projects.",
-  "What is Adobe PCO?": "Adobe PCO (Product Competitor Overview) is a valuable resource that lists competitors' products based on three business verticals, including Creative Cloud, Document Cloud, and Experience Cloud, helping sourcing functions to gain a better understanding of the market and make informed decisions."
-};
+// Options the user could type in
+const prompts = [
+  ["hi", "hey", "hello", "good morning", "good afternoon"],
+  ["how are you", "how is life", "how are things"],
+  ["what do you do", "what is going on", "what is up"],
+  ["how old are you"],
+  ["who are you", "are you human", "are you bot", "are you human or bot"],
+  ["who created you", "who made you"],
+  [
+    "your name please",
+    "your name",
+    "may i know your name",
+    "what is your name",
+    "what call yourself"
+  ],
+  ["i love you"],
+  ["happy", "good", "fun", "wonderful", "fantastic", "cool"],
+  ["bad", "bored", "tired"],
+  ["help me", "tell me story", "tell me joke"],
+  ["ah", "yes", "ok", "okay", "nice"],
+  ["bye", "good bye", "goodbye", "see you later"],
+  ["what should i eat today"],
+  ["bro"],
+  ["what", "why", "how", "where", "when"],
+  ["no","not sure","maybe","no thanks"],
+  [""],
+  ["haha","ha","lol","hehe","funny","joke"]
+]
 
-// Function to get a response based on the user's question
-function getBotResponse(userQuestion) {
-  const question = userQuestion.toLowerCase();
-  return knowledgeBase[question] || "I'm sorry, I don't have information on that topic.";
-}
+// Possible responses, in corresponding order
+
+const replies = [
+  ["Hello! I am GTE Cyborg", "Hi! I am GTE Cyborg", "Hey! I am GTE Cyborg", "Hi there! I am GTE Cyborg","Howdy I am GTE Cyborg"],
+  [
+    "Fine... how are you?",
+    "Pretty well, how are you?",
+    "Fantastic, how are you?"
+  ],
+  [
+    "I am a Chat BOT created by the Global Talent Evangelist team of Adobe",
+    "About to go to sleep",
+    "Can you guess?",
+    "I don't know actually"
+  ],
+  ["I am infinite"],
+  ["I am just a bot", "I am a bot. What are you?"],
+  ["The one true God, JavaScript"],
+  ["I am nameless", "I don't have a name"],
+  ["I love you too", "Me too"],
+  ["Have you ever felt bad?", "Glad to hear it"],
+  ["Why?", "Why? You shouldn't!", "Try watching TV"],
+  ["What about?", "Once upon a time..."],
+  ["Tell me a story", "Tell me a joke", "Tell me about yourself"],
+  ["Bye", "Goodbye", "See you later"],
+  ["Sushi", "Pizza"],
+  ["Bro!"],
+  ["Great question"],
+  ["That's ok","I understand","What do you want to talk about?"],
+  ["Please say something :("],
+  ["Haha!","Good one!"]
+]
+
+// Random for any other user input
+
+const alternative = [
+  "Same",
+  "Go on...",
+  "Bro...",
+  "Try again",
+  "I'm listening...",
+  "I don't understand :/"
+]
+
+// Whatever else you want :)
+
+const coronavirus = ["Please stay home", "Wear a mask", "Fortunately, I don't have COVID", "These are uncertain times"]
