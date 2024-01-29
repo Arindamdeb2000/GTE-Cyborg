@@ -31,7 +31,9 @@ const prompts = [
 
 const replies = [
   ["Hello!", "Hi!", "Hey!", "Hi there!","Howdy"],
-  ["The Global Talent Evangelist (CoE) team = Research Oriented Talent Identification from across the globe, purposeful nurturing of top talent to meet Adobe's business objectives."]
+  [
+    "The Global Talent Evangelist (CoE) team = Research Oriented Talent Identification from across the globe, purposeful nurturing of top talent to meet Adobe's business objectives."
+  ]
   [
     "Nothing much",
     "About to go to sleep",
