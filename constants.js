@@ -11,8 +11,3 @@ function getBotResponse(userQuestion) {
   const question = userQuestion.toLowerCase();
   return knowledgeBase[question] || "I'm sorry, I don't have information on that topic.";
 }
-
-// Example usage
-const userQuestion = "What is Sourcing pod?";
-const botResponse = getBotResponse(userQuestion);
-console.log(botResponse);
