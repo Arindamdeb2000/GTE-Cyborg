@@ -11,8 +11,8 @@ const prompts = [
   ["What does Anushree do"],
   ["who created you", "who made you"],
   [
-    "What does Lesten D'Souza do",
     "your name",
+    "What does Lesten D'Souza do",
     "may i know your name",
     "what is your name",
     "what call yourself"
