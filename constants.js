@@ -48,12 +48,7 @@ const replies = [
 // Random for any other user input
 
 const alternative = [
-  "Same",
-  "Go on...",
-  "Bro...",
-  "Try again",
-  "I'm listening...",
-  "I don't understand :/"
+"The GTE team, led by individuals like Arindam Deb (ARI), Pooja Saxena, Mahek Mann, Lesten D’Souza, and Anushree Kulkarni, is primarily responsible for Global Executive Hiring. Their key areas of expertise and focus include executing GTE KPIs, sourcing leadership, program management, global intelligence, innovation initiatives, talent communities, executive market intelligence, as well as design and execution of strategic initiatives. Additionally, they play vital roles in managing data, dashboards, and reporting for effective decision-making within the organization.Arindam Deb (ARI) : Global Executive Hiring,GTE KPI Execution,Sourcing Leadership,Program Management,Global Intelligence,Innovation Initiatives,Talent Communities,Exec Market Intelligence,Design & Execution,Data, Dashboard & ReportingPooja Saxena : Global Executive Hiring,Exec Market Intelligence,Data, Dashboard & ReportingMahek Mann:  Global Executive Hiring,Exec Market Intelligence,Innovation Initiatives,Talent Communities,Global Intelligence,Design & ExecutionLesten D’Souza: Global Executive Hiring,Exec Market Intelligence,Innovation InitiativesAnushree Kulkarni : Global Executive Hiring,Exec Market Intelligence,Talent Communities,Global Intelligence,Design & Execution”
 ]
 
 // Whatever else you want :)
