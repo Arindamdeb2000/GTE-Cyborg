@@ -2,7 +2,7 @@
 const prompts = [
   ["hi", "hey", "hello", "good morning", "good afternoon"],
   ["how are you", "how is life", "how are things"],
-  ["what are you doing", "what is going on", "what is up"],
+  ["what do you do", "what's your role", "what is up"],
   ["how old are you"],
   ["who are you", "are you human", "are you bot", "are you human or bot"],
   ["who created you", "who made you"],
@@ -37,8 +37,8 @@ const replies = [
     "Fantastic, how are you?"
   ],
   [
-    "Nothing much",
-    "About to go to sleep",
+    "I am a Cyborg created by GTE Team",
+    "I answer all your questions associated with GTE Executive Hiring",
     "Can you guess?",
     "I don't know actually"
   ],
