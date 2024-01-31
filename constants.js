@@ -2,11 +2,17 @@
 const prompts = [
   ["hi", "hey", "hello", "good morning", "good afternoon"],
   ["how are you", "how is life", "how are things"],
-  ["Who supports Data, Dashboard & Reporting","Data,Dashboard & Reporting"],
+  ["what are you doing", "what is going on", "what is up"],
   ["how old are you"],
   ["who are you", "are you human", "are you bot", "are you human or bot"],
   ["who created you", "who made you"],
-  ["your name please","your name","may i know your name","what is your name","what call yourself"],
+  [
+    "your name please",
+    "your name",
+    "may i know your name",
+    "what is your name",
+    "what call yourself"
+  ],
   ["i love you"],
   ["happy", "good", "fun", "wonderful", "fantastic", "cool"],
   ["bad", "bored", "tired"],
@@ -19,14 +25,23 @@ const prompts = [
   ["no","not sure","maybe","no thanks"],
   [""],
   ["haha","ha","lol","hehe","funny","joke"]
-];
+]
 
 // Possible responses, in corresponding order
 
 const replies = [
-  ["Hello! I am GTE Cyborg", "Hi! I am GTE Cyborg", "Hey! I am GTE Cyborg", "Hi there! I am GTE Cyborg","Howdy I am GTE Cyborg"],
-  ["Fine... how are you?","Pretty well, how are you?","Fantastic, how are you?"],
-  ["I am a Chat BOT created by the Global Talent Evangelist team of Adobe, You can reach out to one of the team members named Pooja Saxena ","You can reach out to Pooja Saxena from the Global Talent Evangelist team","Can you guess?","I don't know actually"],
+  ["Hello!", "Hi!", "Hey!", "Hi there!","Howdy"],
+  [
+    "Fine... how are you?",
+    "Pretty well, how are you?",
+    "Fantastic, how are you?"
+  ],
+  [
+    "Nothing much",
+    "About to go to sleep",
+    "Can you guess?",
+    "I don't know actually"
+  ],
   ["I am infinite"],
   ["I am just a bot", "I am a bot. What are you?"],
   ["The one true God, JavaScript"],
@@ -43,14 +58,14 @@ const replies = [
   ["That's ok","I understand","What do you want to talk about?"],
   ["Please say something :("],
   ["Haha!","Good one!"]
-];
+]
 
 // Random for any other user input
 
 const alternative = [
-  "The GTE team, led by individuals like Arindam Deb (ARI), Pooja Saxena, Mahek Mann, Lesten D’Souza, and Anushree Kulkarni, is primarily responsible for Global Executive Hiring. Their key areas of expertise and focus include executing GTE KPIs, sourcing leadership, program management, global intelligence, innovation initiatives, talent communities, executive market intelligence, as well as design and execution of strategic initiatives. Additionally, they play vital roles in managing data, dashboards, and reporting for effective decision-making within the organization.Arindam Deb (ARI) : Global Executive Hiring,GTE KPI Execution,Sourcing Leadership,Program Management,Global Intelligence,Innovation Initiatives,Talent Communities,Exec Market Intelligence,Design & Execution,Data, Dashboard & ReportingPooja Saxena : Global Executive Hiring,Exec Market Intelligence,Data, Dashboard & ReportingMahek Mann:  Global Executive Hiring,Exec Market Intelligence,Innovation Initiatives,Talent Communities,Global Intelligence,Design & ExecutionLesten D’Souza: Global Executive Hiring,Exec Market Intelligence,Innovation InitiativesAnushree Kulkarni : Global Executive Hiring,Exec Market Intelligence,Talent Communities,Global Intelligence,Design & Execution"
-];
+  "The GTE team, led by individuals like Arindam Deb (ARI), Pooja Saxena, Mahek Mann, Lesten D’Souza, and Anushree Kulkarni, is primarily responsible for Global Executive Hiring. Their key areas of expertise and focus include executing GTE KPIs, sourcing leadership, program management, global intelligence, innovation initiatives, talent communities, executive market intelligence, as well as design and execution of strategic initiatives. Additionally, they play vital roles in managing data, dashboards, and reporting for effective decision-making within the organization. Arindam Deb (ARI) : Global Executive Hiring, GTE KPI Execution, Sourcing Leadership, Program Management, Global Intelligence, Innovation Initiatives, Talent Communities, Exec Market Intelligence, Design & Execution, Data, Dashboard & Reporting Pooja Saxena : Global Executive Hiring, Exec Market Intelligence, Data, Dashboard & Reporting Mahek Mann:  Global Executive Hiring, Exec Market Intelligence, Innovation Initiatives, Talent Communities, Global Intelligence, Design & Execution Le
+
 
 // Whatever else you want :)
 
-const coronavirus = ["Please stay home", "Wear a mask", "Fortunately, I don't have COVID", "These are uncertain times"];
+const coronavirus = ["Please stay home", "Wear a mask", "Fortunately, I don't have COVID", "These are uncertain times"]
