@@ -37,7 +37,7 @@ const replies = [
     "Fantastic, how are you?"
   ],
   [
-    "I am a Cyborg created by GTE Team",
+    "The GTE team, led by individuals like Arindam Deb (ARI), Pooja Saxena, Mahek Mann, Lesten D’Souza, and Anushree Kulkarni, is primarily responsible for Global Executive Hiring. Their key areas of expertise and focus include executing GTE KPIs, sourcing leadership, program management, global intelligence, innovation initiatives, talent communities, executive market intelligence, as well as design and execution of strategic initiatives. Additionally, they play vital roles in managing data, dashboards, and reporting for effective decision-making within the organization.",
     "I answer all your questions associated with GTE Executive Hiring",
     "Can you guess?",
     "I don't know actually"
