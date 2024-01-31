@@ -31,17 +31,8 @@ const prompts = [
 
 const replies = [
   ["Hello! I am GTE Cyborg", "Hi! I am GTE Cyborg", "Hey! I am GTE Cyborg", "Hi there! I am GTE Cyborg","Howdy I am GTE Cyborg"],
-  [
-    "Fine... how are you?",
-    "Pretty well, how are you?",
-    "Fantastic, how are you?"
-  ],
-  [
-    "I am a Chat BOT created by the Global Talent Evangelist team of Adobe, You can reach out to one of the team member named Pooja Saxena ",
-    "You can reach out to Pooja Saxena from the Global Talent Evangelist team",
-    "Can you guess?",
-    "I don't know actually"
-  ],
+  ["Fine... how are you?","Pretty well, how are you?","Fantastic, how are you?"],
+  ["I am a Chat BOT created by the Global Talent Evangelist team of Adobe, You can reach out to one of the team member named Pooja Saxena ","You can reach out to Pooja Saxena from the Global Talent Evangelist team","Can you guess?","I don't know actually"],
   ["I am infinite"],
   ["I am just a bot", "I am a bot. What are you?"],
   ["The one true God, JavaScript"],
