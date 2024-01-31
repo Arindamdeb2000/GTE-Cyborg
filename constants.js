@@ -3,7 +3,7 @@ const prompts = [
   ["hi", "hey", "hello", "good morning", "good afternoon"],
   ["how are you", "how is life", "how are things"],
   ["what do you do", "what's your role", "what is up"],
-  ["how old are you"],
+  ["What is total weekly hours GTE Supports to Executive Hiring in North America"],
   ["who are you", "are you human", "are you bot", "are you human or bot"],
   ["who created you", "who made you"],
   [
@@ -42,7 +42,7 @@ const replies = [
     "Can you guess?",
     "I don't know actually"
   ],
-  ["I am infinite"],
+  ["72 Hours... precisely"],
   ["I am just a bot", "I am a bot. What are you?"],
   ["The one true God, JavaScript"],
   ["I am nameless", "I don't have a name"],
