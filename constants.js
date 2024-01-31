@@ -4,7 +4,7 @@ const prompts = [
   ["how are you", "how is life", "how are things"],
   ["what do you do", "what's your role", "what is up"],
   ["how many hours gte supports the north american executive team"],
-  ["What is the scope of work of Lesten"],
+  ["What does Lesten do", "What does Mahek do", "What does Ari do","What does Pooja do", "What does Anushree do"],
   ["who created you", "who made you"],
   [
     "your name please",
@@ -43,7 +43,7 @@ const replies = [
     "I don't know actually"
   ],
   ["72 Hours... precisely"],
-  ["I am just a bot", "I am a bot. What are you?"],
+  ["Global Executive Hiring,Exec Market Intelligence,Innovation Initiatives","Global Executive Hiring,Exec Market Intelligence,Innovation Initiatives,Talent Communities,Global Intelligence,Design & Execution", "Global Executive Hiring,GTE KPI Execution,Sourcing Leadership,Program Management,Global Intelligence,Innovation Initiatives,Talent Communities,Exec Market Intelligence,Design & Execution,Data, Dashboard & Reporting","Global Executive Hiring,Exec Market Intelligence,Data, Dashboard & Reporting", "Global Executive Hiring,Exec Market Intelligence,Talent Communities,Global Intelligence,Design & Execution"],
   ["The one true God, JavaScript"],
   ["I am nameless", "I don't have a name"],
   ["I love you too", "Me too"],
