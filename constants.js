@@ -3,7 +3,7 @@ const prompts = [
   ["hi", "hey", "hello", "good morning", "good afternoon"],
   ["how are you", "how is life", "how are things"],
   ["what do you do", "what's your role", "what is up"],
-  ["How many hours GTE Supports to Executive Hiring in North America"],
+  ["How many hours GTE Supports the NA Executive Team"],
   ["What is the scope of work of Lesten"],
   ["who created you", "who made you"],
   [
