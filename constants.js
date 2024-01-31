@@ -2,6 +2,8 @@
 const prompts = [
   ["hi", "hey", "hello", "good morning", "good afternoon"],
   ["how are you", "how is life", "how are things"],
+  ["what do you do", "what's your role", "what is up"],
+  ["how many hours gte supports the north american executive team"],
   ["What does Lesten do"], 
   ["What does Mahek do"], 
   ["What does Ari do"],
@@ -44,8 +46,6 @@ const replies = [
     "I don't know actually"
   ],
   ["72 Hours... precisely"],
-  
-  
   ["Global Executive Hiring,Exec Market Intelligence,Innovation Initiatives"],
   ["Global Executive Hiring,Exec Market Intelligence,Innovation Initiatives,Talent Communities,Global Intelligence,Design & Execution"],
   ["Global Executive Hiring,GTE KPI Execution,Sourcing Leadership,Program Management,Global Intelligence,Innovation Initiatives,Talent Communities,Exec Market Intelligence,Design & Execution,Data, Dashboard & Reporting"],
