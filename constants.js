@@ -2,7 +2,7 @@
 const prompts = [
   ["hi", "hey", "hello", "good morning", "good afternoon"],
   ["how are you", "how is life", "how are things"],
-  ["what do you do", "what is going on", "what is up"],
+  ["Who supports Data, Dashboard & Reporting","Data, Dashboard & Reporting"],
   ["how old are you"],
   ["who are you", "are you human", "are you bot", "are you human or bot"],
   ["who created you", "who made you"],
@@ -37,8 +37,8 @@ const replies = [
     "Fantastic, how are you?"
   ],
   [
-    "I am a Chat BOT created by the Global Talent Evangelist team of Adobe",
-    "About to go to sleep",
+    "I am a Chat BOT created by the Global Talent Evangelist team of Adobe, You can reach out to one of the team member named Pooja Saxena ",
+    "You can reach out to Pooja Saxena from the Global Talent Evangelist team",
     "Can you guess?",
     "I don't know actually"
   ],
