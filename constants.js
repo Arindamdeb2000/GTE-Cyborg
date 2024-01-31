@@ -2,8 +2,6 @@
 const prompts = [
   ["hi", "hey", "hello", "good morning", "good afternoon"],
   ["how are you", "how is life", "how are things"],
-  ["what do you do", "what's your role", "what is up"],
-  ["how many hours gte supports the north american executive team"],
   ["What does Lesten do"], 
   ["What does Mahek do"], 
   ["What does Ari do"],
