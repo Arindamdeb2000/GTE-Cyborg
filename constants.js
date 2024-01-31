@@ -3,7 +3,7 @@ const prompts = [
   ["hi", "hey", "hello", "good morning", "good afternoon"],
   ["how are you", "how is life", "how are things"],
   ["what are you doing", "what is going on", "what is up"],
-  ["how old are you"],
+  ["Who leads the GTE Function", "GTE Lead", "GTE Leader"],
   ["who are you", "are you human", "are you bot", "are you human or bot"],
   ["who created you", "who made you"],
   [
@@ -30,7 +30,7 @@ const prompts = [
 // Possible responses, in corresponding order
 
 const replies = [
-  ["Hello!", "Hi!", "Hey!", "Hi there!","Howdy"],
+  ["Hello! - I am GTE Cyborg", "Hi! - I am GTE Cyborg", "Hey! - I am GTE Cyborg", "Hi there! - I am GTE Cyborg","Howdy - I am GTE Cyborg"],
   [
     "Fine... how are you?",
     "Pretty well, how are you?",
@@ -42,7 +42,7 @@ const replies = [
     "Can you guess?",
     "I don't know actually"
   ],
-  ["I am infinite"],
+  ["PSRP Kiran"],
   ["I am just a bot", "I am a bot. What are you?"],
   ["The one true God, JavaScript"],
   ["I am nameless", "I don't have a name"],
