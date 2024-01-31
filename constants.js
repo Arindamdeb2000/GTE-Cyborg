@@ -63,9 +63,9 @@ const replies = [
 // Random for any other user input
 
 const alternative = [
-  "The GTE team, led by individuals like Arindam Deb (ARI), Pooja Saxena, Mahek Mann, Lesten D’Souza, and Anushree Kulkarni, is primarily responsible for Global Executive Hiring. Their key areas of expertise and focus include executing GTE KPIs, sourcing leadership, program management, global intelligence, innovation initiatives, talent communities, executive market intelligence, as well as design and execution of strategic initiatives. Additionally, they play vital roles in managing data, dashboards, and reporting for effective decision-making within the organization. Arindam Deb (ARI) : Global Executive Hiring, GTE KPI Execution, Sourcing Leadership, Program Management, Global Intelligence, Innovation Initiatives, Talent Communities, Exec Market Intelligence, Design & Execution, Data, Dashboard & Reporting Pooja Saxena : Global Executive Hiring, Exec Market Intelligence, Data, Dashboard & Reporting Mahek Mann:  Global Executive Hiring, Exec Market Intelligence, Innovation Initiatives, Talent Communities, Global Intelligence, Design & Execution Le
+  ["The GTE team, led by individuals like Arindam Deb (ARI), Pooja Saxena, Mahek Mann, Lesten D’Souza, and Anushree Kulkarni, is primarily responsible for Global Executive Hiring. Their key areas of expertise and focus include executing GTE KPIs, sourcing leadership, program management, global intelligence, innovation initiatives, talent communities, executive market intelligence, as well as design and execution of strategic initiatives. Additionally, they play vital roles in managing data, dashboards, and reporting for effective decision-making within the organization. Arindam Deb (ARI) : Global Executive Hiring, GTE KPI Execution, Sourcing Leadership, Program Management, Global Intelligence, Innovation Initiatives, Talent Communities, Exec Market Intelligence, Design & Execution, Data, Dashboard & Reporting Pooja Saxena : Global Executive Hiring, Exec Market Intelligence, Data, Dashboard & Reporting Mahek Mann:  Global Executive Hiring, Exec Market Intelligence, Innovation Initiatives, Talent Communities, Global Intelligence, Design & Execution]
 
-
+]
 // Whatever else you want :)
 
 const coronavirus = ["Please stay home", "Wear a mask", "Fortunately, I don't have COVID", "These are uncertain times"]
