@@ -32,9 +32,8 @@ const prompts = [
 ]
 
 // Possible responses, in corresponding order
-
 const replies = [
-  ["Hello! - I am GTE Cyborg", "Hi! - I am GTE Cyborg", "Hey! - I am GTE Cyborg", "Hi there! - I am GTE Cyborg","Howdy - I am GTE Cyborg"],
+  ["Hello! - I am GTE Cyborg", "Hi! - I am GTE Cyborg", "Hey! - I am GTE Cyborg", "Hi there! - I am GTE Cyborg", "Howdy - I am GTE Cyborg"],
   [
     "Fine... how are you?",
     "Pretty well, how are you?",
@@ -42,15 +41,15 @@ const replies = [
   ],
   [
     "The GTE team, led by individuals like Arindam Deb (ARI), Pooja Saxena, Mahek Mann, Lesten D’Souza, and Anushree Kulkarni, is primarily responsible for Global Executive Hiring. Their key areas of expertise and focus include executing GTE KPIs, sourcing leadership, program management, global intelligence, innovation initiatives, talent communities, executive market intelligence, as well as design and execution of strategic initiatives. Additionally, they play vital roles in managing data, dashboards, and reporting for effective decision-making within the organization.",
-    "I answer all your questions associated with GTE Executive Hiring",
+    "Global Executive Hiring,Exec Market Intelligence,Innovation Initiatives",  // Moved this response to the correct position
     "Can you guess?",
     "I don't know actually"
   ],
   ["72 Hours... precisely"],
   ["Global Executive Hiring,Exec Market Intelligence,Innovation Initiatives"],
-  ["Global Executive Hiring,Exec Market Intelligence,Innovation Initiatives,Talent Communities,Global Intelligence,Design & Execution"], 
+  ["Global Executive Hiring,Exec Market Intelligence,Innovation Initiatives,Talent Communities,Global Intelligence,Design & Execution"],
   ["Global Executive Hiring,GTE KPI Execution,Sourcing Leadership,Program Management,Global Intelligence,Innovation Initiatives,Talent Communities,Exec Market Intelligence,Design & Execution,Data, Dashboard & Reporting"],
-  ["Global Executive Hiring,Exec Market Intelligence,Data, Dashboard & Reporting"], 
+  ["Global Executive Hiring,Exec Market Intelligence,Data, Dashboard & Reporting"],
   ["Global Executive Hiring,Exec Market Intelligence,Talent Communities,Global Intelligence,Design & Execution"],
   ["The one true God, JavaScript"],
   ["I am nameless", "I don't have a name"],
@@ -63,13 +62,12 @@ const replies = [
   ["Sushi", "Pizza"],
   ["Bro!"],
   ["Great question"],
-  ["That's ok","I understand","What do you want to talk about?"],
+  ["That's ok", "I understand", "What do you want to talk about?"],
   ["Please say something :("],
-  ["Haha!","Good one!"]
-]
+  ["Haha!", "Good one!"]
+];
 
 // Random for any other user input
-
 const alternative = [
   "Same",
   "Go on...",
@@ -77,8 +75,7 @@ const alternative = [
   "Try again",
   "I'm listening...",
   "I don't understand :/"
-]
+];
 
 // Whatever else you want :)
-
-const coronavirus = ["Please stay home", "Wear a mask", "Fortunately, I don't have COVID", "These are uncertain times"]
+const coronavirus = ["Please stay home", "Wear a mask", "Fortunately, I don't have COVID", "These are uncertain times"];
