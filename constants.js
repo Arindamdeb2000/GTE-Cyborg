@@ -1,4 +1,3 @@
-// Options the user could type in
 const prompts = [
   ["hi", "hey", "hello", "good morning", "good afternoon"],
   ["how are you", "how is life", "how are things"],
@@ -29,9 +28,8 @@ const prompts = [
   ["no","not sure","maybe","no thanks"],
   [""],
   ["haha","ha","lol","hehe","funny","joke"]
-]
+];
 
-// Possible responses, in corresponding order
 const replies = [
   ["Hello! - I am GTE Cyborg", "Hi! - I am GTE Cyborg", "Hey! - I am GTE Cyborg", "Hi there! - I am GTE Cyborg", "Howdy - I am GTE Cyborg"],
   [
@@ -63,6 +61,13 @@ const replies = [
   ["Please say something :("],
   ["Haha!", "Good one!"]
 ];
+
+// Map prompts with replies and print in console
+prompts.forEach((prompt, index) => {
+  console.log(`Prompt: ${prompt}`);
+  console.log(`Reply: ${replies[index]}`);
+  console.log("-----");
+});
 
 // Random for any other user input
 const alternative = [
