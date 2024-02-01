@@ -11,7 +11,7 @@ const prompts = [
   ["What does Anushree do"],
   ["who created you", "who made you"],
   [
-    "your name please",
+    "What does Lesten D'Souza do",
     "your name",
     "may i know your name",
     "what is your name",
@@ -30,7 +30,6 @@ const prompts = [
   [""],
   ["haha","ha","lol","hehe","funny","joke"]
 ]
-
 // Possible responses, in corresponding order
 const replies = [
   ["Hello! - I am GTE Cyborg", "Hi! - I am GTE Cyborg", "Hey! - I am GTE Cyborg", "Hi there! - I am GTE Cyborg", "Howdy - I am GTE Cyborg"],
@@ -51,8 +50,8 @@ const replies = [
   ["Global Executive Hiring,GTE KPI Execution,Sourcing Leadership,Program Management,Global Intelligence,Innovation Initiatives,Talent Communities,Exec Market Intelligence,Design & Execution,Data, Dashboard & Reporting"],
   ["Global Executive Hiring,Exec Market Intelligence,Data, Dashboard & Reporting"],
   ["Global Executive Hiring,Exec Market Intelligence,Talent Communities,Global Intelligence,Design & Execution"],
-  ["The one true God, JavaScript"],
-  ["I am nameless", "I don't have a name"],
+  ["The one and only Global Talent Evangelist -GTE Team, using JavaScript"],
+  ["Global Executive Hiring,Exec Market Intelligence,Innovation Initiatives - With 70% dedicated towards Sourcing 20% towards Market Intelligence and 10% towards project initiatives", "I don't have a name"],
   ["I love you too", "Me too"],
   ["Have you ever felt bad?", "Glad to hear it"],
   ["Why?", "Why? You shouldn't!", "Try watching TV"],
@@ -66,7 +65,6 @@ const replies = [
   ["Please say something :("],
   ["Haha!", "Good one!"]
 ];
-
 // Random for any other user input
 const alternative = [
   "Same",
@@ -76,6 +74,5 @@ const alternative = [
   "I'm listening...",
   "I don't understand :/"
 ];
-
 // Whatever else you want :)
 const coronavirus = ["Please stay home", "Wear a mask", "Fortunately, I don't have COVID", "These are uncertain times"];
