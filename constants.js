@@ -1,38 +1,67 @@
+// Options the user could type in
 const prompts = [
-  ["Hello! - I am GTE Cyborg", "Hi! - I am GTE Cyborg", "Hey! - I am GTE Cyborg", "Hi there! - I am GTE Cyborg", "Howdy - I am GTE Cyborg"],
-  ["What do you do?"],
-  ["Who created you?"],
+  ["hi", "hey", "hello", "good morning", "good afternoon"],
+  ["how are you", "how is life", "how are things"],
+  ["What do you do?", "What do GTE Executive Team do?"],
   ["Tell me about Arindam Deb (ARI)."],
-  ["Tell me about Pooja Saxena."],
-  ["Tell me about Mahek Mann."],
-  ["Tell me about Lesten D’Souza."],
-  ["Tell me about Anushree Kulkarni."],
-  ["What is the High-level Talent Sourcing Workflow?"],
-  ["What is the Committed Resource Weekly Activity Breakdown?"]
-];
+  ["who are you", "are you human", "are you bot", "are you human or bot"],
+  ["who created you", "who made you"],
+  [
+    "your name please",
+    "your name",
+    "may i know your name",
+    "what is your name",
+    "what call yourself"
+  ],
+  ["i love you"],
+  ["happy", "good", "fun", "wonderful", "fantastic", "cool"],
+  ["bad", "bored", "tired"],
+  ["help me", "tell me story", "tell me joke"],
+  ["ah", "yes", "ok", "okay", "nice"],
+  ["bye", "good bye", "goodbye", "see you later"],
+  ["what should i eat today"],
+  ["bro"],
+  ["what", "why", "how", "where", "when"],
+  ["no","not sure","maybe","no thanks"],
+  [""],
+  ["haha","ha","lol","hehe","funny","joke"]
+]
+
+// Possible responses, in corresponding order
 
 const replies = [
-  ["Hello! - I am GTE Cyborg", "Hi! - I am GTE Cyborg", "Hey! - I am GTE Cyborg", "Hi there! - I am GTE Cyborg", "Howdy - I am GTE Cyborg"],
-  ["I am GTE Cyborg, your Global Talent Evangelist! Feel free to chat with me."],
-  ["The one and only Global Talent Evangelist - GTE Team, using JavaScript."],
+  ["Hello! -  I an GTE Cyborg", "Hi! -  I an GTE Cyborg", "Hey!" -  I an GTE Cyborg, "Hi there! -  I an GTE Cyborg","Howdy -  I an GTE Cyborg"],
+  [
+    "Fine... how are you?",
+    "Pretty well, how are you?",
+    "Fantastic, how are you?"
+  ],
+  [
+    "I am GTE Cyborg, your Global Talent Evangelist! Feel free to chat with me.",
+    "I am GTE Cyborg, your Global Talent Evangelist! Feel free to chat with me.",
+    "I am GTE Cyborg, your Global Talent Evangelist! Feel free to chat with me.",
+    "I am GTE Cyborg, your Global Talent Evangelist! Feel free to chat with me."
+  ],
   ["Arindam Deb, also known as ARI, is responsible for executing executive hiring strategies, achieving a team target of 24 hires in FY 24, and leading a sourcing team. With a 60% focus on KPI execution (North America Executive Hiring), Ari collaborates with stakeholders, ensures compliance, promotes diversity, conducts market research, and monitors talent pipelines. Additionally, he manages 30% of Market Intelligence using data-driven decision-making and tools adoption. Ari dedicates 10% to research, analytics, and innovation, focusing on continuous improvement, strategic initiatives, and diversity programs. \n\nFocus Areas: Global Executive Hiring, GTE KPI Execution, Sourcing Leadership, Program Management, Global Intelligence, Innovation Initiatives, Talent Communities, Exec Market Intelligence, Design & Execution, Data, Dashboard & Reporting"],
-  ["Pooja Saxena's role primarily focuses on Talent Attraction, contributing 70% to Executive Hiring KPI execution. This involves executive search techniques, relationship building, and assessing leadership competencies. Additionally, she handles 20% in Market Intelligence, emphasizing competitor analysis, talent mapping, and forecasting talent trends. With 10% in Data, Dashboards, and reporting on KPI progress.\n\nFocus Areas: Global Executive Hiring, Exec Market Intelligence, Data, Dashboard & Reporting"],
-  ["Mahek Mann, a key contributor in Adobe's Global Talent Evangelist (GTE) Team, plays a vital role in executive searches (60%), ensuring alignment with organizational objectives. She drives creativity and strategic insight in projects encompassing Market Intelligence, Strategic Sourcing, and Design (20%). Mahek excels in technical expertise, data-driven storytelling, and mentoring, utilizing tools like PowerPoint, Adobe Illustrator, Adobe Express, SharePoint Site, and Power Bi.\n\nFocus Areas: Global Executive Hiring, Exec Market Intelligence, Innovation Initiatives, Talent Communities, Global Intelligence, Design & Execution"],
-  ["Lesten D'Souza's role primarily focuses on Talent Attraction, contributing 70% to Executive Hiring KPI execution. This involves executive search techniques, relationship building, and assessing leadership competencies. Additionally, he handles 20% in Market Intelligence, emphasizing competitor analysis, talent mapping, and forecasting talent trends. With 10% in Design, Analytics, and Projects, Lesten utilizes data analysis, project management, visualization tools, and strategic planning.\n\nFocus Areas: Global Executive Hiring, Exec Market Intelligence, Innovation Initiatives"],
-  ["Joining on 12th February 2024, Anushree allocates 40% of her bandwidth to executing Executive Hiring KPIs, ensuring alignment with organizational goals. Additionally, she dedicates 10% to Design and Execution, 40% to Global Market Intelligence, and 20% to cultivating Talent Communities. Anushree excels in strategic insights, data-driven decision-making, and utilizes tools like PowerPoint.\n\nFocus Areas: Global Executive Hiring, Exec Market Intelligence, Talent Communities, Global Intelligence, Design & Execution"],
-  ["The high-level talent sourcing workflow includes stages like Prekick-off, Kickoff, Calibration and Sourcing, Name Generation, Research Insights, and Search Strategy Recommendations. Committed resources dedicate 72 hours per week to support 15 searches."],
-  ["Activity\tLesten\tMahek\tPooja\tAri\tAnushree\tTotal Weekly Hrs.\nResearch\t5.25\t4.50\t4.20\t4.50\t3.00\t21.45\nDiversity\t3.50\t3.00\t2.80\t3.00\t2.00\t14.30\nScreening + Recommendation Process\t5.25\t4.50\t4.20\t4.50\t3.00\t21.45\nWD (Reviewing Applicants, Data Integrity)\t1.75\t1.50\t1.40\t1.50\t1.00\t7.15\nAdmin (Calibration Materials)\t1.75\t1.50\t1.40\t1.50\t1.00\t7.15\nWeekly Hours\t17.50\t15.00\t14.00\t15.00\t10.00\t71.50"]
-];
-
-// Map prompts with replies and print in console
-prompts.forEach((prompt, index) => {
-  console.log(`Prompt: ${prompt.join(', ')}`);
-  console.log(`Reply: ${replies[index].join('\n')}`);
-  console.log("-----");
-});
-
+  ["I am just a bot", "I am a bot. What are you?"],
+  ["The one true God, JavaScript"],
+  ["I am nameless", "I don't have a name"],
+  ["I love you too", "Me too"],
+  ["Have you ever felt bad?", "Glad to hear it"],
+  ["Why?", "Why? You shouldn't!", "Try watching TV"],
+  ["What about?", "Once upon a time..."],
+  ["Tell me a story", "Tell me a joke", "Tell me about yourself"],
+  ["Bye", "Goodbye", "See you later"],
+  ["Sushi", "Pizza"],
+  ["Bro!"],
+  ["Great question"],
+  ["That's ok","I understand","What do you want to talk about?"],
+  ["Please say something :("],
+  ["Haha!","Good one!"]
+]
 
 // Random for any other user input
+
 const alternative = [
   "Same",
   "Go on...",
@@ -40,7 +69,8 @@ const alternative = [
   "Try again",
   "I'm listening...",
   "I don't understand :/"
-];
+]
 
 // Whatever else you want :)
-const coronavirus = ["Please stay home", "Wear a mask", "Fortunately, I don't have COVID", "These are uncertain times"];
+
+const coronavirus = ["Please stay home", "Wear a mask", "Fortunately, I don't have COVID", "These are uncertain times"]
